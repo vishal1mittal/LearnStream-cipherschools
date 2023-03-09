@@ -7,7 +7,7 @@ import '../../styles/TopPanel.css'
 
 function TopPanel() {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" variant="dark">
       <Container fluid>
         <Navbar.Brand href="#" className='brandLogo'>LS</Navbar.Brand>
         <Nav href="#action1" className='brandName'>LearnStream</Nav>
