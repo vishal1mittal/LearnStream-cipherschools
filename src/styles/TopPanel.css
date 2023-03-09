@@ -1,0 +1,32 @@
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.navbar, .navbar-brand{
+    background-color: #1F1D36;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.brandLogo{
+    color: #6D67E4;
+    font-size: 180%;
+    padding: 0 10px;
+}
+
+.brandName{
+    font-size: 150%;
+    margin-right: 12%;
+}
+
+.links{
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.me-2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 5px;
+    padding-right: 25vh;
+}
