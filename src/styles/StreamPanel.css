@@ -1,0 +1,23 @@
+.StreamPanel{
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-left: 3.5%;
+    background-color: #3F3B6C;
+    
+}
+
+.video-stream{
+    width: calc(70% - 5em);
+}
+
+.video-info{
+    color: white;
+}
+
+@media (max-width: 750px) {
+    .video-stream {
+        margin-top: 5%;
+        width: 100%;
+    }}
