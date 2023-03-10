@@ -1,4 +1,6 @@
 .sidebar {
+  min-height: 100vh;
+  max-height: 100%;
   position: relative;
   width: 5em;
   background-color: #1F1D36;

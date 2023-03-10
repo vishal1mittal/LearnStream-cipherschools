@@ -1,18 +1,20 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/App.css';
-import TopPanel from './components/home/TopPanel'
-import LeftPanel from './components/home/LeftPanel'
+import { Routes, Route } from "react-router-dom";
+import StreamingPage from "./components/pages/StreamingPage";
+import { BrowserRouter } from "react-router-dom";
 import HomePage from './components/home/HomePage'
 
 function App() {
   return (
-    <div className="App">
-      <TopPanel />
-      <div style={{ display: 'flex' }}>
-      <LeftPanel />
-      <HomePage />
+    <BrowserRouter>
+      <div className="App">
+
+        <Routes>
+          <Route path="/StreamingPage" element={<StreamingPage />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>    
+
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

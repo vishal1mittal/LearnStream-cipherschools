@@ -7,24 +7,24 @@ function LeftPanel() {
   return (
     <div className="sidebar">
       <ul>
-        <li>
-          <a href="#">
-            <i className="fas fa-home" title="Home"></i>
+        <li title="Home">
+          <a href="#home">
+            <i className="fas fa-home"></i>
           </a>
         </li>
-        <li>
-          <a href="#">
-            <i className="fa-regular fa-square-plus" title="Create"></i>
+        <li title="Create">
+          <a href="#create">
+            <i className="fa-regular fa-square-plus"></i>
           </a>
         </li>
-        <li>
-          <a href="#">
-            <i className="fa-solid fa-clapperboard" title="Short Video"></i>
+        <li title="Short Video">
+          <a href="#shorts">
+            <i className="fa-solid fa-clapperboard"></i>
           </a>
         </li>
-        <li>
-          <a href="#">
-          <i className="fa-solid fa-gear" title="Settings"></i>
+        <li title="Settings">
+          <a href="#settings">
+          <i className="fa-solid fa-gear"></i>
           </a>
         </li>
       </ul>
