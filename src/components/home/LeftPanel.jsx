@@ -14,17 +14,17 @@ function LeftPanel() {
         </li>
         <li>
           <a href="#">
-            <i class="fa-regular fa-square-plus" title="Create"></i>
+            <i className="fa-regular fa-square-plus" title="Create"></i>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa-solid fa-clapperboard" title="Short Video"></i>
+            <i className="fa-solid fa-clapperboard" title="Short Video"></i>
           </a>
         </li>
         <li>
           <a href="#">
-          <i class="fa-solid fa-gear" title="Settings"></i>
+          <i className="fa-solid fa-gear" title="Settings"></i>
           </a>
         </li>
       </ul>
