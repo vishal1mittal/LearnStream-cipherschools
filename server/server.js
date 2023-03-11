@@ -6,7 +6,7 @@ dotenv.config();
 
 const app = express();
 
-mongoose.connect('mongodb+srv://admin-Vishal:mobilea1@learnstream.mw3jrr3.mongodb.net/Video-Database', {useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true});
 
 const videoSchema = new mongoose.Schema({
   title: String,
@@ -30,17 +30,17 @@ const videoSchema = new mongoose.Schema({
 const Video = mongoose.model('Video', videoSchema);
 
 
-// Video.find().then(function(videos, err){
+Video.find().then(function(videos, err){
 
-//     if(err){
-//         // console.log(err);
-//     }else{
-//         app.get("/api", function(req,res){
-//             res.send(videos);
-//         });
-//     }
+    if(err){
+        // console.log(err);
+    }else{
+        app.get("/api", function(req,res){
+            res.send(videos);
+        });
+    }
     
-// });
+});
 
 
     
