@@ -13,7 +13,7 @@ function HomePageRecomendationcard(props) {
               <Card.Text>
                 <b>Duration</b>: {props.duration} <br></br>
                 <b>Views</b>: {props.views} <br></br>
-                <b>Likes</b>: {props.likes}   <b>Dislike</b>: {props.dislikes}
+                <b>Likes</b>: {props.like}   <b>Dislike</b>: {props.dislike}
               </Card.Text>
             </Card.Body>
           </Card>

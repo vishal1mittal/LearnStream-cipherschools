@@ -8,6 +8,11 @@
     
 }
 
+.StreamPanel h3{
+    margin-top: 3%;
+    font-size: 5vh;
+}
+
 .video-stream{
     width: calc(70% - 5em);
 }

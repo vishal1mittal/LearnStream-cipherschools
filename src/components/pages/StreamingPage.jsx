@@ -8,15 +8,14 @@ import {useLocation} from 'react-router-dom';
 
 function StreamingPage() {
   const location = useLocation();
-  console.log(location.state)
   return (
     
     <div className="StreamingPage">
       <TopPanel />
-      <div style={{ display: 'flex' }}>
-      <LeftPanel />
-      <StreamPanel state= {location.state}/>
-      <RightPanel />
+      <div className='panel-over' style={{ display: 'flex', height: "288.3em" }}>
+        <LeftPanel />
+        <StreamPanel state= {location.state}/>
+        <RightPanel currentVideoId = {location.state.id || location.state._id.$oid} />
       </div>
     </div>
   );

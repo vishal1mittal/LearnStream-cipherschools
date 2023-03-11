@@ -8,7 +8,7 @@ function LeftPanel() {
     <div className="sidebar">
       <ul>
         <li title="Home">
-          <a href="#home">
+          <a href="/">
             <i className="fas fa-home"></i>
           </a>
         </li>

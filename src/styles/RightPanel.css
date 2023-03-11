@@ -2,7 +2,6 @@
   background-color: #1F1D36;
   color: rgba(255, 255, 255, 0.856);
   min-height: 100vh;
-  max-height: 100%;
   position: absolute;
   width: 30%; /* subtract the width of the left panel */
   display: flex;

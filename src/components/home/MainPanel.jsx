@@ -7,13 +7,14 @@ function CreateRecomendationCard(video) {
   return (
     <HomePageRecomendationcard 
     key={video._id.$oid}
+    id={video._id.$oid}
     thumbnail={video.thumbnail} 
     location={video.location} 
     title={video.title} 
     duration={video.duration} 
     views={video.views} 
-    likes={video.like} 
-    dislikes={video.dislike}/>
+    like={video.like} 
+    dislike={video.dislike}/>
   );
 }
 
